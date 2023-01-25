@@ -16,7 +16,9 @@ export const Body = () => {
         let data = await response.json();
         setOnLoading(false)
         setmovies(data);
-    }catch{alert("error")}};
+    }catch{
+        setOnLoading(false)
+        alert("error")}};
 
     return(
         <>
