@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FF8C00;
+    border: 1px solid #000;
+    width: 900px;
+    margin: auto;
+    border-radius: 3px;
+}
+.header h1 span {
+    text-decoration: underline;
+}
